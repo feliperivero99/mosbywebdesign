@@ -887,7 +887,7 @@ ul.tag-cloud li {
   display: inline-block;
 }
 #bottom {
-  color: #bdc3c7;
+  color: #000;
 }
 #bottom h4 {
   margin-top: 0;
@@ -1111,18 +1111,19 @@ ul.faq li > div h3 {
 }
 
 .navbar-custom {
-    background-color: #ffffff;
+    background-color: #00688B;
 	
 }	
 
 .navbar-custom .nav li a {
-   color:#000808;
+   color:#ffffff;
+   font-weight:bold;
 }
 
 @media (min-width: 768px){
 
 .navbar-custom.affix {
-    background-color: #FFFAFA;
+    background-color: #009ACD;
     padding: 10px 0;
 }
 
@@ -1453,7 +1454,7 @@ padding-left:90px;
 .gallery-title
 {
     font-size: 36px;
-    color: #42B32F;
+    
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -1469,21 +1470,21 @@ padding-left:90px;
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid #00688B;
     border-radius: 5px;
     text-align: center;
-    color: #42B32F;
+    color: #00688B;
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid #00688B;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
+    background-color: #00688B;
 
 }
 .btn-default:active .filter-button:active
@@ -1505,3 +1506,12 @@ padding-left:90px;
 #contact .card:hover i,#contact .card:hover h4{
 	color: #87d37c;
 }
+
+.feature-box-icon{
+    color: #00688B;
+}
+
+.feature-box-info{
+    color: #00688B;
+}
+
