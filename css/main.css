@@ -887,8 +887,15 @@ ul.tag-cloud li {
   display: inline-block;
 }
 #bottom {
-  color: #000;
+  color: #fff;
+  font-weight:bold;
 }
+
+#bottom a{
+  color: #fff;
+  font-weight:bold;
+}
+
 #bottom h4 {
   margin-top: 0;
   margin-bottom: 15px;
