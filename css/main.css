@@ -344,7 +344,7 @@ body > section {
 }
 #main-slider .carousel .boxed {
   padding: 10px 15px;
-  background-color: rgba(248,248,248, 0.53);
+  background-color: rgba(248,248,248, 0.80);
   display: inline-block;
   font-weight: bold;
 }
@@ -1305,6 +1305,7 @@ a.clickable:hover { text-decoration:none; }
     font-size: 16px;
     padding-top: 10px;
     text-align: justify;
+	font-weight:Bold;
 }
 .info > a {
        border-radius: 2px;
