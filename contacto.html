@@ -32,6 +32,13 @@
 	
 	<link href="css/main.css" rel="stylesheet">
 	
+	<style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+	
 	
 	
 
@@ -54,8 +61,11 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#" style="margin-top:-1em"><img src="img/logo.png" alt="" height="100" width="100"></a>
-            </div>
+				
+                                <a class="navbar-brand page-scroll" href="#" style="margin-top:-1em">
+						<i class="fa fa-3x fa-first-order"></i>
+				</a>
+			</div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -93,14 +103,14 @@
 	   <div class="container">
 	<div class="row">
     	<div class="col-md-6 col-sm-6 col-xs-12">
-    		<h2 class="text-uppercase">About us <sup class="badge">with image</sup></h2>
+    		<h2 class="text-uppercase">Acerca de</h2>
     		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. 
     		Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.A small river named Duden flows by their place and supplies it with the necessary regelialia. 
             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
     	</div>
     	<div class="col-md-6 col-sm-6 col-xs-12">
-    	    <img src="http://placehold.it/555x312/652fff/ffffff/?text=ABOUT%20US" alt="" class="img-responsive">
+    	    <div id="map"></div>
     	</div>
 	</div>
 </div>
@@ -112,14 +122,17 @@
 
 	<section id="contact" >
        <div class="container">
-           <h3 class="text-center text-uppercase">contact us</h3>
+           <h3 class="text-center text-uppercase">Contactenos</h3>
            <p class="text-center w-75 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum purus at sem ornare sodales. Morbi leo nulla, pharetra vel felis nec, ullamcorper condimentum quam.</p>
            <div class="row">
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
-                  <div class="card-body text-center">
-                    <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
-                    <h4 class="text-uppercase mb-5">call us</h4>
+                  <div class="card-body text-center" >
+                    <div style="color:#2B63AA">
+					<i  class="fa fa-phone fa-5x mb-3"  aria-hidden="true"></i>
+                    <h4 class="text-uppercase mb-5">Telefonos</h4>
+					</div>
+					
                     <p>+8801683615582,+8801750603409</p>
                   </div>
                 </div>
@@ -127,8 +140,10 @@
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
                   <div class="card-body text-center">
-                    <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
-                    <h4 class="text-uppercase mb-5">office loaction</h4>
+                    <div style="color:#2B63AA">
+					<i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
+                    <h4 class="text-uppercase mb-5">Ubicacion 1</h4>
+					</div>
                    <address>Suite 02, Level 12, Sahera Tropical Center </address>
                   </div>
                 </div>
@@ -136,8 +151,10 @@
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
                   <div class="card-body text-center">
+				  <div style="color:#2B63AA">
                     <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
-                    <h4 class="text-uppercase mb-5">office loaction</h4>
+                    <h4 class="text-uppercase mb-5">Ubicacion 2</h4>
+					</div>
                     <address>Suite 02, Level 12, Sahera Tropical Center </address>
                   </div>
                 </div>
@@ -145,8 +162,10 @@
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
                   <div class="card-body text-center">
+				  <div style="color:#2B63AA">
                     <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
-                    <h4 class="text-uppercase mb-5">email</h4>
+                    <h4 class="text-uppercase mb-5">Correo</h4>
+					</div>
                     <p>http://al.a.noman1416@gmail.com</p>
                   </div>
                 </div>
@@ -156,22 +175,48 @@
     </section>
     <!-- Optional JavaScript -->
 	
-
-	<section id="bottom" class="wet-asphalt2 bg-light-gray" >
+	
+	
+	
+	
+	 <section id="bottom" class="wet-asphalt2 bg-light-gray" >
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <h4>Informacion <i class="fa fa-info-circle" aria-hidden="true"></i> </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet velit luctus, suscipit velit et, commodo diam. Ut turpis nulla, ullamcorper sit amet tincidunt eu, dictum eget lectus. Nunc lobortis orci in dictum viverra. Nulla sed orci at arcu convallis volutpat id eu enim. Fusce ac augue porttitor, imperdiet ante eu, condimentum turpis. Vestibulum luctus accumsan interdum</p>
-                       </div><!--/.col-md-3-->
+                    <p>
+					En esta seccion puedes encontrar todos los datos de contacto de nuestra empresa y el mapa del sitio
+					</p>
+                    </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4>Productos   <i class="fa fa-product-hunt" aria-hidden="true"></i></h4>
+                    <h4>Mapa del Sitio  <i class="fa fa-sitemap" aria-hidden="true"></i></h4>
                     <div>
                         <ul class="arrow">
-                            <li><a href="#">Vacerpo alimento</a></li>
-                            <li><a href="#">Vacerpo sumplemento</a></li>
-                            <li><a href="#">Submin mineral</a></li>
+                            <li><a href="#">Landing Pages</a></li>
+                            <li><a href="#">Paginas para PYMES</a></li>
+                            <li><a href="#">Paginas con Catalogo</a></li>
+							<li><a href="#">Tienda en Linea</a></li>
+							<li><a href="#">Hoteles y Fincas</a></li>
+							<li><a href="#">SEO y Community Manager</a></li>
+							<li>
+                        <a  href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a  href="productos.html">Productos</a>
+                    </li>
+                   
+                    <li>
+                        <a  href="proyectos.html">Proyectos</a>
+                    </li>
+					<li>
+                        <a  href="presupuesto.html">Pedir Presupuesto</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+							
+							
                         </ul>
                     </div>
                 </div><!--/.col-md-3-->
@@ -202,21 +247,28 @@
                 </div><!--/.col-md-3-->
             
                 <div class="col-md-3 col-sm-6">
-                    <h4>Vacerpo</h4>
+                    <h4>Mosby Design</h4>
                     <div class="pull-left">
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                     </div>
                     <address>
                        <strong>  Cont&aacute;ctese con nosotros!</strong><br> 
-                       <br> 
+                        
                     </address>
-                    <span class="media-heading"><a href="contacto.html">ventas@vacerpo.io</a></span>
+                    <span class="media-heading"><a href="contacto.html"><i class="fa fa-envelope"></i> ventas@mosbydesign.io</a></span>
+					<span class="media-heading"><a href="contacto.html"><i class="fa fa-twitter"></i>  @MosbyWebDesign</a></span>
+					<span class="media-heading"><a href="contacto.html"><i class="fa fa-facebook-square"></i>  Mosby Web Design</a></span>
+					<span class="media-heading"><a href="contacto.html"><i class="fa fa-linkedin"></i>  Mosby Web Design</a></span>
+                
                 </div>
                 
             </div>
-    </section><!--/#bottom-->
+        </div>
+                </div>
+  </section><!--/#bottom-->
 
     
+	
     <footer>
         <div class="container">
             <div class="row">
@@ -266,6 +318,22 @@
 	<script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
 	
+	<script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2pupcRNxepwlCHdgvXdff7RqRO-kG_rU&callback=initMap">
+    </script>
 	
 
 </body>
