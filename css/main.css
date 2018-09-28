@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 .clearfix {
   *zoom: 1;
 }
@@ -880,6 +881,14 @@ ul.tag-cloud li {
   margin: 0;
   padding: 0;
 }
+
+.no-margin2 {
+  margin: 0;
+  padding: 0;
+  margin-top: -2em;
+}
+
+
 .registration-form {
   border: 0;
   background-color: #fff;
@@ -888,7 +897,6 @@ ul.tag-cloud li {
 }
 #bottom {
   color: #fff;
-  font-weight:bold;
 }
 
 #bottom a{
@@ -1305,7 +1313,8 @@ a.clickable:hover { text-decoration:none; }
     font-size: 16px;
     padding-top: 10px;
     text-align: justify;
-	font-weight:Bold;
+	font-family: 'Roboto Slab', serif;
+	
 }
 .info > a {
        border-radius: 2px;
@@ -1601,4 +1610,6 @@ padding-left:90px;
 }
 
 
-
+.size {
+    min-height:500px;
+}
